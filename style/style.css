@@ -1,0 +1,309 @@
+/*== GLOBAL ==*/
+* {
+  padding: 0;
+  margin: 0;
+}
+/*== /GLOBAL ==*/
+/*== Body ==*/
+body {
+  font-family: "Sen", sans-serif;
+  font-size: 14px;
+  color: #3d4e61;
+  max-width: 2000px;
+  min-width: 1000px;
+}
+/*== /Body ==*/
+/*== Header ==*/
+header {
+  width: 100%;
+  height: 60px;
+}
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+.header__right {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.header__logo {
+  margin: 15px 0 15px 26px;
+}
+.header__nav {
+  display: block;
+  padding-top: 21px;
+  padding-bottom: 17px;
+}
+.nav__link {
+  margin-right: 38.58px;
+  cursor: pointer;
+}
+.links {
+  font-size: 16px;
+  font-weight: bold;
+  color: #3d4e61;
+  text-decoration: none;
+}
+
+.links:active,
+.links:focus,
+.links:hover {
+  text-decoration: underline;
+}
+.header__photo {
+  margin: 15px 0;
+  margin-right: 19px;
+}
+.profile__photo {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+/*== /Header ==*/
+/*== Photo ==*/
+#photo{
+  width: 100%;
+  height: 464px;
+}
+/*== /Photo ==*/
+/*== Main ==*/
+main {
+  width: 100%;
+}
+.main__inner {
+  width: 901px;
+  display: flex;
+  flex-wrap: nowrap;
+  margin:39px auto 0 auto;
+}
+/* Лівий блок*/
+.main__left {
+  width: 482px;
+  margin-right: 89px;
+}
+/* Початок блоку про апартаменти*/
+.apartaments__title {
+  font-size: 36px;
+  color: #3d4e61;
+}
+.apartaments__subTitle {
+  font-size: 16px;
+  color: rgba(104, 124, 148, 1);
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.desc__item {
+  font-size: 16px;
+  color: #3d4e61;
+  margin-right: 11px;
+  font-weight: 700;
+}
+.desc__item:last-child {
+  margin-right: 0px;
+}
+.text {
+  margin-top: 28px;
+  color: #3d4e61;
+  line-height: 24px;
+  font-weight: 700;
+  margin-top: 30px;
+}
+.links__tel {
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 44px;
+}
+
+.Amenities__title {
+  font-size: 20px;
+  margin-bottom: 21px;
+}
+.Amenities__inner {
+  display: flex;
+  flex-wrap: wrap;
+}
+.Amenities__inner__text {
+  min-width: 175px;
+  font-size: 16px;
+  margin-bottom: 13px;
+}
+/* Закінчення блоку про апартаменти*/
+/* Початок блоку про відгуки*/
+.block__reviews {
+  margin-top: 55px;
+}
+.reviews__title {
+  display: inline-block;
+  font-size: 28px;
+  margin-bottom: 34px;
+}
+.reviews__inner {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.reviews__item {
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+}
+.reviews__item:last-child {
+  margin-bottom: 0;
+}
+.reviews__item__top {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.rev__photo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.reviews__item__right {
+  margin-left: 21px;
+}
+.reviews__name {
+  font-size: 20px;
+  font-weight: 700;
+}
+.reviews__date {
+  margin-top: 5px;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.reviews__text {
+  margin-top: 15px;
+}
+.text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+}
+/* Закінчення блоку про відгуки*/
+/* Початок блоку про автора*/
+.block__author {
+  margin-top: 55px;
+}
+.title_author {
+  font-family: Roboto,sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.subtitle__author__city {
+  font-size: 14px;
+  line-height: 16px;
+  margin: 11px 0;
+  font-weight: 500;
+}
+.author__text {
+  margin-top: 7px;
+  margin-bottom: 35px;
+}
+.links__host {
+  display: inline-block;
+  padding: 15px 24px 13px 27px;
+  border: 1px solid #118488;
+  color: #118488;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.links__host:hover {
+  background: #118488;
+  color: white;
+  transition: background 1s, color 0.5s;
+}
+/* Закінчення блоку про автора*/
+/* Правий блок*/
+.main__right {
+  width: 330px;
+  height: 319px;
+}
+.form__booking {
+  border: 1px solid #e1e7ed;
+}
+.form__title {
+  font-weight: 400;
+  margin: 30px 0 0 30px;
+  line-height: 48px;
+}
+.form__input {
+  width: 270px;
+  height: 50px;
+  border: 1px solid #e1e7ed;
+
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+.date__input {
+  margin: 39px 30px 16px 30px;
+}
+.number__input {
+  margin: 16px 30px 0 30px;
+}
+.form__button {
+  display: block;
+  width: 270px;
+  height: 50px;
+
+  margin: 24px auto 38px auto;
+
+  color: #ffffff;
+  background: #fd5c63;
+  border-radius: 4px;
+  border: none;
+}
+/*== /Main ==*/
+/*== Footer ==*/
+footer {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: #ffffff;
+  box-shadow: 0px -1px 0px #e1e7ed;
+}
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  width: 893px;
+  margin: 0 auto;
+}
+.footer__item {
+  margin-top: 44px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+.footer__link {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.footer__link > .links{
+    margin-top: 9px;
+    font-weight: 400;
+}
+.footer__link > .links:last-child{
+    margin-bottom: 43px;
+}
+/*== /Footer ==*/
+
+/*==== MediaQuery ====*/
+/*== Header ==*/
+
+/*== /Header ==*/
+/*== Main ==*/
+
+/*== /Main ==*/
+/*== Footer ==*/
+
+/*== /Footer ==*/
+/*==== /MediaQuery ====*/

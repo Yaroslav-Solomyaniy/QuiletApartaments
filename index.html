@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--===== META =======-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--===== /META =======-->
+    <!--===== Links =======-->
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sen&display=swap"
+      rel="stylesheet"
+    />
+    <!--===== /Links =======-->
+    <title>Quiet apartment</title>
+  </head>
+
+  <body>
+    <!--===== Header =======-->
+    <header>
+      <div class="header__inner">
+        <div class="header__left">
+          <!-- Початок лівої частини шапки-->
+          <div class="header__logo">
+            <img class="logo" src="./img/logo.png" alt="Logotype" />
+          </div>
+        </div>
+        <!-- Кінець лівої частини шапки-->
+
+        <div class="header__right">
+          <!-- Початок правої частина шапки-->
+          <div class="header__nav">
+            <!-- Менюшка в шапкі-->
+            <a class="nav__link links" href="#">Become a host</a>
+            <a class="nav__link links" href="#">Trips</a>
+            <a class="nav__link links" href="#">Messages</a>
+          </div>
+
+          <div class="header__photo">
+            <img
+              class="profile__photo"
+              src="img/profile.png"
+              alt="Profile Photo"
+            />
+          </div>
+        </div>
+        <!-- Кінець правої частини шапки-->
+      </div>
+      <!-- Кінець Header__Inner -->
+    </header>
+    <!--===== /Header =======-->
+    <!--===== Photo =======-->
+    <div class="photo__page">
+      <img id="photo" src="img/photo.png" alt="Photo" />
+    </div>
+    <!--===== /Photo =======-->
+    <!--===== Main =======-->
+    <main>
+      <div class="main__inner">
+        <!-- Загальний блок контенту-->
+
+        <div class="main__left">
+          <!-- Початок лівої частини контенту-->
+          <!--Загальний лівий блок-->
+          <div class="block__apartaments">
+            <!-- Блок про апартаменти-->
+            <h1 class="apartaments__title">Quiet apartment</h1>
+            <h3 class="apartaments__subTitle">Entire apartment</h3>
+            <div class="apartaments__description">
+              <span class="desc__item">4 guests</span>
+              <span class="desc__item">1 bed</span>
+              <span class="desc__item">1 bath</span>
+            </div>
+            <div class="text">
+              City Apartment is newly renovated in the heart of Budapest, right
+              in the city center. Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam.
+            </div>
+            <a class="links links__tel" href="tel:+38093217239">Contact host</a>
+          </div>
+          <div class="Amenities">
+            <h3 class="Amenities__title">Amenities</h3>
+            <div class="Amenities__inner">
+              <div class="Amenities__inner__text">Elevator</div>
+              <div class="Amenities__inner__text">Hair dryer</div>
+              <div class="Amenities__inner__text">Washer</div>
+              <div class="Amenities__inner__text">Kitchen</div>
+            </div>
+            <a class="links" href="#">Show All Amenities</a>
+          </div>
+          <!-- Кінець блоку про апартаменти -->
+          <div class="block__reviews">
+            <!-- Блок відгуків-->
+            <h2 class="title">Reviews</h2>
+            <div class="reviews__inner">
+              <div class="reviews__item">
+                <div class="reviews__item__top">
+                  <div class="reviews__item__left">
+                    <div class="reviews__photo">
+                      <img
+                        class="rev__photo"
+                        src="img/men.png"
+                        alt="Profile Photo"
+                      />
+                    </div>
+                  </div>
+                  <div class="reviews__item__right">
+                    <div class="reviews__name">John</div>
+                    <div class="reviews__date">September 2016</div>
+                  </div>
+                </div>
+                <div class="reviews__item__bottom">
+                  <div class="reviews__text text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam.
+                  </div>
+                </div>
+              </div>
+
+              <div class="reviews__item">
+                <div class="reviews__item__top">
+                  <div class="reviews__item__left">
+                    <div class="reviews__photo">
+                      <img
+                        class="rev__photo"
+                        src="img/men.png"
+                        alt="Profile Photo"
+                      />
+                    </div>
+                  </div>
+                  <div class="reviews__item__right">
+                    <div class="reviews__name">John</div>
+                    <div class="reviews__date">September 2016</div>
+                  </div>
+                </div>
+                <div class="reviews__item__bottom">
+                  <div class="reviews__text text">
+                    Sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Кінець блоку відгуків -->
+          <div class="block__author">
+            <!-- Блок автора-->
+            <h2 class="title_author">Hosted by Jane</h2>
+            <h3 class="subtitle__author__city">Budapest, Hungary</h3>
+            <div class="author__text text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et magna aliqua.
+            </div>
+            <a class="links links__host" href="tel:+38093217239">Contact host</a>
+          </div>
+        </div>
+        <!-- Кінець лівої частини контенту-->
+
+        <div class="main__right">
+          <!-- Початок правої частини контенту-->
+          <form class="form__booking" action="POST">
+            <h2 class="form__title">25$ per night</h2>
+            <input
+              placeholder="   Date"
+              type="text"
+              name="date_form"
+              class="form__input date__input"
+              onfocus="(this.type='date')"
+            />
+            <br />
+            <input
+              placeholder="   Guest"
+              type="number"
+              name="number_form"
+              class="form__input number__input"
+            />
+            <div class="buttons">
+              <button type="submit" class="form__button">Book</button>
+            </div>
+          </form>
+        </div>
+        <!-- Кінець правої частини контенту-->
+      </div>
+    </main>
+    <!--===== /Main =======-->
+    <!--===== Footer =======-->
+    <footer>
+        <div class="footer__inner">
+            <div class="footer__item">
+                <h3>Airbnb</h3>
+                <div class="footer__link">
+                    <a class="links" href="#">About</a>
+                    <a class="links" href="#">Press</a>
+                    <a class="links" href="#">Help</a>
+                </div>
+            </div>
+            <div class="footer__item">
+                <h3>Discover</h3>
+                <div class="footer__link">
+                    <a class="links" href="#">Travel credit</a>
+                    <a class="links" href="#">Business</a>
+                    <a class="links" href="#">Guidebooks</a>
+                </div>
+            </div>
+            <div class="footer__item">
+                <h3>Hosting</h3>
+                <div class="footer__link">
+                    <a class="links" href="#">Why host</a>
+                    <a class="links" href="#">Hospitality</a>
+                    <a class="links" href="#">Community</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--===== /Footer =======-->
+  </body>
+</html>
